@@ -1,0 +1,67 @@
+.f-card {
+    width: 600px;
+    height: 600px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.f-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.f-child {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.item-ul {
+    font-size: larger;
+    color: chocolate;
+}
+
+.item-ul li {
+    list-style: none;
+}
+
+.item-ul li:hover {
+    color: black;
+    cursor: move;
+    font-size: 30px;
+}
+
+.f-btn {
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: cadetblue;
+    box-shadow: black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.f-input {
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    color: dimgrey;
+    outline: none;
+}
