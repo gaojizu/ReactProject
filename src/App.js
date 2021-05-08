@@ -11,24 +11,24 @@ import UseRtable from "./components/jsx/useRtable.jsx";
 import UsePage from "./components/jsx/useRpage.jsx";
 import UseForm from "./components/jsx/useform.jsx";
 import "./App.css";
-
+import ComHead from "./components/jsx/comHead";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Clock />
-        {/*<Hello />*/}
-        <UseForm />
-        {/* <Listview />
+      <ComHead />
+      {/* <Clock /> */}
+      {/*<Hello />*/}
+      {/* <UseForm /> */}
+      <UseRtable />
+      {/* <Listview />
         <UseRtable />
         <UsePage /> */}
-        {/*<Btn />
+      {/*<Btn />
         <Input />
         <CustomTextInput />
         <Com1 />
         <Lifecycle />
         <Father />*/}
-      </header>
     </div>
   );
 }

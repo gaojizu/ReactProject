@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+// import App from "./App";
+import ComRouter from "./router";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ComRouter />
   </React.StrictMode>,
   document.getElementById("root")
 );
